@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: url("imagens/celular\ de\ fundo.jpg");
+background-repeat: no-repeat ;
+    background-position: 10rem;
+    
+}
+
+
+#conteiner {
+    align-items: center;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+
+}
+
+#conteiner img {
+    width: 15rem;
+    display: flex;
+}
+
+#conteiner input {
+    display: flex;
+    padding: .4rem 9rem .4rem 0;
+    margin: .4rem;
+    border-radius: 5px;
+    border-color: #dbdbdb;
+
+
+}
+
+#conteiner form a {
+    display: flex;
+    margin: .4rem;
+    border: blue;
+    justify-content: center;
+    background-color: #b2dffc;
+    padding: .4rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+
+}
+
+.separacao {
+    text-align: center;
+
+}
+
+#externo {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3rem 18rem 0;
+
+}
+
+#conteiner .icon {
+    width: 1rem;
+}
+
+.formasDif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    font-weight: 500;
+
+}
+
+.formasDif img {
+    margin-right: .5rem;
+}
+
+.formasDif a {
+    text-decoration: none;
+}
+
+.formasDif2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    font-size: .7rem;
+    font-weight: bol;
+}
+
+.formasDif2 a {
+    text-decoration: none;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    border: 1px solid #dbdbdb;
+    align-items: center;
+    flex-direction: column;
+    width: 19rem;
+
+}
+
+.cadastroex {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 18rem 0;
+}
+
+.cadastro a {
+    text-decoration: none;
+    color: #009cf7;
+    font-weight: bold;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#apps2 img {
+    width: 10rem;
+}
+
+.apps3 {
+    display: flex;
+    justify-content: flex-end;
+    margin: .8rem 19rem 0;
+
+}
+footer{
+    display: flex;
+        padding: 2rem;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+   
+}
